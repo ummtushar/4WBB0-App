@@ -5,9 +5,9 @@ import UserNotifications
 struct ContentView: View {
     @State private var responseText = ""
     @State private var humidityThresholdString = "50"
-    let arduinoIPAddress = "http://192.168.0.103/"
+    let arduinoIPAddress = "http://..../"
     
-    let weatherAppURL = URL(string: "http://192.168.0.103/")!
+    let weatherAppURL = URL(string: "http://..../")!
     
     var body: some View {
         NavigationView {
